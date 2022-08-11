@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.backgroundPic {
+  background-image: url("https://www.wepc.com/wp-content/uploads/2021/03/Custom-Water-Cooling-EKWB.jpg");
+  height: 65vh;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.backgroundPic2 {
+  background-image: url("https://cdn.nba.com/manage/2018/08/leaguev3.jpeg");
+  height: 65vh;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.38);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+  
+.backgroundPic3 {
+  background-image: url("https://legendofthegoldenwind.files.wordpress.com/2019/01/yellowcover.jpg");
+  height: 70vh;
+  width: 49vh;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: 30px;
+  }
+
+.backgroundPic4 {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/mfJj_7yR8PONXzzFc8KVsor_UJE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19377237/Halo_TMCC_Reach_KeyArt_Vert_Final.jpg");
+  height: 70vh;
+  width: 49vh;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  }
+  .overlay2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.38);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+
+#pDiv {
+  text-align: center;
+  }
+
+#pDiv2 {
+  text-align: center;
+  }
+.overlay h1 {
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+  }
+  
+.overlay h2 {
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+  }
+
+.overlay p {
+  margin: 0;
+  font-size: 26px;
+}
+
+.overlay2 h3 {
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+}
+
+.overlay2 h4 {
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+}
+
+.overlay2 p {
+  margin: 0;
+  font-size: 26px;
+}
+
+#social {
+text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  transition: all ease .65s;
+  z-index: 100;
+  width: 100%;
+}
+
+span {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 15px;
+  color: black;
+}
+
+
+li #head {
+  color: black;
+  text-decoration: none;
+}
+
+li #head:hover {
+  color: #eb750e;
+  font-size: 18px;
+}
+
+.halfPics {
+display: flex;
+justify-content: center;
+}
