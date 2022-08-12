@@ -143,6 +143,7 @@ nav {
   transition: all ease .65s;
   z-index: 100;
   width: 100%;
+  position:fixed;
 }
 
 span {
