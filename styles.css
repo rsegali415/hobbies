@@ -91,7 +91,7 @@ body {
   text-align: center;
   }
 .overlay h1 {
-  font-size: 65px;
+  font-size: 4.063rem;
   letter-spacing: 2px;
   margin: 0 0 5px;
   }
@@ -104,7 +104,7 @@ body {
 
 .overlay p {
   margin: 0;
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 .overlay2 h3 {
@@ -144,7 +144,7 @@ nav {
 }
 
 span {
-  font-size: 24px;
+  font-size: 1.5px;
   margin-left: 10px;
 }
 
@@ -168,7 +168,7 @@ li #head {
 
 li #head:hover {
   color: #eb750e;
-  font-size: 18px;
+  font-size: 1.125px;
 }
 
 .halfPics {
